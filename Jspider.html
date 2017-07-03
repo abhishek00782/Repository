@@ -1,0 +1,274 @@
+<!DOCTYPE html>  
+<html lang="en">  
+  <head>  
+       <title>Jspider</title>  
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+      <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
+      <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+  </head> 
+  <body>
+      <div class="container-fluid">
+          <nav class="navbar navbar-default">  
+  <div class="container-fluid ">  
+    <div class="navbar-header" >  
+        <a class="navbar-brand" href="#" width="50%"><img src="http://www.jspiders.com/sites/all/themes/bootstrap/logo.png"  hspace= "55px"; alt="Home" width="80px" ></a>
+    </div>  
+    <ul class="nav navbar-nav pull-right">  
+      <li class="active" ><a href="/home/abhishek/Documents/web/Jspider.html">HOME</a></li> 
+        <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About us
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="/home/abhishek/Documents/web/Jspider2.html">Faculty</a></li>
+        </ul>
+      </li>  
+      <li><a href="#">COURSES</a></li>  
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Clients
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Placements</a></li>
+          
+        </ul>
+      </li> 
+        <li><a href="#">STUDENT SPEAK</a></li>  
+      <li><a href="/home/abhishek/Documents/web/jspider3.html">CORPORATE</a></li>  
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Gallery
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Placements</a></li>
+          <li><a href="#">Recruitment Drive</a></li>
+        </ul>
+      </li> 
+        <li><a href="/home/abhishek/Documents/web/jspider1.html">CONTACT US</a></li>  
+      <li><a href="#">JOB SEEKERS</a></li>  
+      <li><a href="#">QSPIDERS</a></li>  
+    </ul>
+              </div>
+          </nav>
+      </div>
+      <div class="container-fluid">
+      <div class="Box1">
+          <jumbotron>
+          <h4>THE WORLD'S LARGEST JAVA DEVELOPMENT LEARNING PLATFORM</h4>
+        <p style="color:blue">Jspider is the world's ace java development training organization with an aim to bridge the gap between the demands of the industry and the curriculum of educational institition.</p>
+          <i>"Jspiders is a place where businesses find talent and dreams take flight."</i>
+          </jumbotron>
+      </div>
+      <div class="Box2">
+       <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 12.9753351, lng: 77.6309389};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoOF9qUuRdZkdSDFrPW8EarYMerRb9tHM&callback=initMap">
+          </script>
+  
+ 
+      </div>
+      </div>
+      <div class="container-fluid dropdown">
+      <div id="button" class="btn-group box3">
+  <button type="button" class="btn btn-primary btn-md">Basvanagudi</button>
+  <button type="button" class="btn btn-default btn-md">Hebbal</button>
+  <button type="button" class="btn btn-warning btn-md">Mysore</button>
+          <button type="button" class="btn btn-danger btn-md">BTM Layout</button>
+  <button type="button" class="btn btn-info btn-md">Rajajinagar</button>
+  <button type="button" class="btn btn-primary btn-md">Old Airport Road</button>
+           
+    <button class="btn btn-primary dropdown-toggle btn-md btn-group" type="button" data-toggle="dropdown">Tamil Nadu 
+    </button>  
+    <ul class="dropdown-menu 1">  
+      <li><a href="#">Vadapalani</a></li>  
+      <li><a href="#">Chormepet</a></li>  
+      
+              </ul>
+              <button class="btn btn-default dropdown-toggle btn-md " type="button" data-toggle="dropdown">Maharashtra
+    </button>  
+    <ul class="dropdown-menu 2">  
+      <li><a href="#">Mumbai</a></li>  
+      <li><a href="#">Pune deccan</a></li>  
+      <li><a href="#">Pune Hadapsar</a></li>
+              </ul>
+              <button class="btn btn-danger dropdown-toggle btn-md" type="button" data-toggle="dropdown">Telangana 
+    </button>  
+    <ul class="dropdown-menu">  
+      <li><a href="#">Hyderabad</a></li>  
+      
+              </ul>
+              <button class="btn btn-warning dropdown-toggle btn-md" type="button" data-toggle="dropdown">Karnataka 
+    </button>  
+    <ul class="dropdown-menu 3">  
+      <li><a href="#">Basvanagudi</a></li>  
+      <li><a href="#">Old Airport Road</a></li>  
+      <li><a href="#">Btm</a></li>
+              </ul>
+              <button class="btn btn-info dropdown-toggle btn-md" type="button" data-toggle="dropdown">Odisa 
+    </button>  
+    <ul class="dropdown-menu 4">  
+      <li><a href="#">Bhuvneshwar</a></li>  
+      >
+              </ul>
+              <button class="btn btn-success dropdown-toggle btn-md" type="button" data-toggle="dropdown">Noida
+    </button>  
+    <ul class="dropdown-menu 5">  
+      <li><a href="#">Noida</a></li>  
+              </ul>
+              <button class="btn btn-primary dropdown-toggle btn-md-1" type="button" data-toggle="dropdown">Global 
+     <span class = "caret"></span></button>  
+    <ul class="dropdown-menu">  
+      <li><a href="#">UK</a></li>  
+      <li><a href="#">US</a></li>  
+     
+              </ul>
+              
+          </div>
+
+</div>
+      <div class="container" style="margin-top:440px">
+      <table class="table table-bordered" style="width:100%;padding:5px 5px;background-color:#fff;text-align:center;" > 
+          <tr><th>No.1</th><th>15.3%</th><th>2520+</th><th>5-7</th><th>800-1200</th></tr>
+          <tr><td>Largest training centre in the world</td>
+          <td>Software developers in the IT industry are our students </td>
+              <td>Multinational Companies hire from us</td>
+              <td>Companies conduct interviews every working day.</td>
+              <td>Students attend interviews everyday across companies through Jspiders</td></tr>
+                <tr><th colspan=5>C,C++ Programming</th></tr>
+          <tr><td colspan=5><b>Jspiders</b>, India’s Ace Software Training Institute is happy to announce. C++ will be commencing from the month of November at all the branches. More details Contact:<b> 9686800588/9611186669.</b></td></tr>
+          
+      </table>
+      </div>
+      <div class="container">
+       <table class="table table-bordered" style="width:100%;padding:5px 5px;background-color:#fff;text-align:center;" > 
+          <tr><th><img src="/home/abhishek/Documents/web/database.png"><span class="label label-default">SQL</span>
+                       </th><th><img src="/home/abhishek/Documents/web/fast_track.png"><span class="label label-default">Aptitude</span></th><th><img src="/home/abhishek/Documents/web/ajava_blank.png"><span class="label label-default">Core Java</span></th><th><img src="/home/abhishek/Documents/web/fast_track.png"><span class="label label-default">Python</span></th><th><img src="/home/abhishek/Documents/web/fast_track.png"><span class="label label-default">C,C++</span></th></tr>
+          <tr><td><pre>
+Timing:4:30 pm
+Date:26 June 2017
+Faculty:Keshav Sir
+</pre></td>
+<td><pre>
+Timing:4:30 pm
+Date:26 June 2017
+Faculty:Gautham Sir
+</pre> </td>
+              <td><pre>
+Timing:4:30 pm
+Date:26 June 2017
+Faculty:Kavita Mam
+</pre></td>
+              <td><pre>
+Timing:4:30 pm
+Date:26 June 2017
+Faculty:Raveesh Sir
+</pre>.</td>
+              <td><pre>
+Timing:4:30 pm
+Date:26 June 2017
+Faculty:Sathish Sir
+</pre></td>
+          </tr>
+      </table>
+      </div>
+      <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">  
+    <!-- Indicators -->  
+    <ol class="carousel-indicators">  
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>  
+      <li data-target="#myCarousel" data-slide-to="1"></li>  
+      <li data-target="#myCarousel" data-slide-to="2"></li>  
+    </ol>  
+  
+    <!-- Wrapper for slides -->  
+    <div class="carousel-inner" role="listbox">  
+      <div class="item active">  
+        <img src="maxresdefault.jpg" alt="jokes 1" >  
+      </div>  
+  
+      <div class="item">  
+        <img src="212.jpg" alt="jokes 2" >  
+      </div>  
+      
+      <div class="item">  
+        <img src="hqdefault.jpg" alt="jokes 3" >  
+      </div>  
+    </div>  
+  
+    <!-- Left and right controls -->  
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">  
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>  
+      <span class="sr-only">Previous</span>  
+    </a>  
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">  
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>  
+      <span class="sr-only">Next</span>  
+    </a>  
+</div><!-- corousel end -->  
+      
+      
+      
+      </div>
+  <div class="container-fluid">
+          <div class="Box7">
+          <div class="Box8">
+          <h6 style="color:white">CAREERS    PRIVACY POLICY</h6>
+          
+          </div>
+          <table class="table" style="width:70%" > 
+              <tr><th></th></tr>
+               <tr><th></th></tr>
+  <tr><th>About Jspiders</th><th>Branches</th><th>Enquiry</th></tr>  
+           <tr><td>   <p>
+              Jspiders is a top-notch learning solutions organization head quartered in India's IT capital Bangalore.
+we offer wide range of course in the area of java development.
+A "Finishing School" in different paths , the institute Provides young job aspirants the perfect launch pad tho build a excellent rewarding careers in the huge IT hubs.
+               </p></td>
+               <td>
+                   Rajajinagar
+                   Mysore
+                   BTM
+               </td>
+               <td>
+                   <div class="container pull-left" style="width:300px;">
+          <form>  
+               <div class="form-group" >   
+                <input type="text" class="form-control" id="FirNam" placeholder="Name" style="width:300px">  
+            </div>
+              <div class="form-group" >    
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" style="width:300px">  
+            </div>  
+              <div class="form-group">  
+                <input type="number" class="form-control" id="Mobile" placeholder="Mobile Number" style="width:300px">  
+              </div>
+                <div class = "form-group">
+      <textarea class = "form-control" rows = "3" placeholder="Message" style="width:300px"></textarea>
+   </div>
+                  <button type="submit" class="btn btn-primary pull-right">Submit</button> 
+              
+                       </form>
+                   </div>
+               </td>
+          </table>
+          
+          </div>
+      </div>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>  
+  </body>  
+</html> 
